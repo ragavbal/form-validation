@@ -13,7 +13,6 @@ emailerror.textContent="";
 
 if (emailInput.value.trim() === "") {
   emailerror.textContent="email is required";
-  return;
 }
 if(nameInput.value.trim()==="")
 {
